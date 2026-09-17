@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/jamieainsworth/websites/nextjs-dashboard remote -v)",
+      "Bash(git -C /Users/jamieainsworth/websites/nextjs-dashboard remote set-url origin https://github.com/jains123/Next-JS-Dashboard)",
+      "Bash(pnpm --version)",
+      "Bash(pnpm rebuild *)",
+      "Bash(grep -o '^POSTGRES_URL=.\\\\{0,20\\\\}' .env)",
+      "Bash(lsof -iTCP:3000 -sTCP:LISTEN -P -n)",
+      "Bash(awk '{print $1, $2}')"
+    ]
+  }
+}
